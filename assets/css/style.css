@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico&display=swap');
+
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Poiret One', cursive;
+*/
+
+/* presets */
+* {
+    font-family: verdana;
+    color: #f16c48;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.bar {
+    width: 100%;
+    height: 800px;
+}
+
+.nav .menubar {
+    width: 100%;
+    text-align: center;
+    box-shadow: 1px 2px 4px grey;
+    background: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menubar li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 30px;
+    margin: 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menubar li:hover {
+    background: #757375;
+}

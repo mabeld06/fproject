@@ -1,0 +1,223 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /*sidebar*/
+        #mySidenav a {
+            position: absolute;
+            left: -80px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 15px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+        }
+
+        #mySidenav a:hover {
+            left: 0;
+        }
+
+        #home {
+            top: 20px;
+            background-color: #e98c38;
+        }
+
+        #port {
+            top: 80px;
+            background-color: #f4a469;
+        }
+
+        #contact {
+            top: 140px;
+            background-color: #f9b98f
+        }
+
+        /*portfolio picture*/
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .bg {
+            background-image: url("assets/img/portrait.jpeg");
+            height: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .centered {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: verdana cursive;
+            font-size: 70px;
+            color: snow;
+            text-shadow: 1px 2px 4px black;
+            margin-top: 50px;
+            margin-bottom: 70px;
+        }
+
+        div.gallery {
+            border: 1px solid #ccc;}
+
+        div.gallery:hover {
+            border: 7px solid coral;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .footer{
+    position: fixed;
+    left: 0;
+    bottom:0;
+            height:30px;
+    width: 100%;
+    background-color: black;
+    color:#f16c48;
+    text-align: center;
+}
+
+    </style>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="index.html" id="home">Home</a>
+        <a href="portfolio.html" id="port">Portfolio</a>
+        <a href="contact.html" id="contact">Contact</a>
+    </div>
+    <div class="bg"></div>
+    <div class="centered">Portfolio</div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="assets/img/news%20copy.jpg">
+                <img src="assets/img/news%20copy.jpg" alt="news">
+            </a>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="assets/img/uno.jpg">
+                <img src="assets/img/uno.jpg" alt="love">
+            </a>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="assets/img/two.jpg">
+                <img src="assets/img/two.jpg" alt="one">
+            </a>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="assets/img/dos.jpg.jpeg">
+                <img src="assets/img/dos.jpg" alt="two">
+            </a>
+        </div>
+    </div>
+        <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="assets/img/one.jpg">
+                <img src="assets/img/one.jpg" alt="three">
+            </a>
+        </div>
+    </div>
+     <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="assets/img/tres.jpg">
+                <img src="assets/img/tres.jpg" alt="four">
+            </a>
+        </div>
+    </div>
+     <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="assets/img/four.jpg">
+                <img src="assets/img/four.jpg" alt="five">
+            </a>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="assets/img/cuatro.jpg">
+                <img src="assets/img/cuatro.jpg" alt="six">
+            </a>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="assets/img/five.jpg">
+                <img src="assets/img/five.jpg" alt="seven">
+            </a>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="assets/img/cinco.jpg">
+                <img src="assets/img/cinco.jpg" alt="eight">
+            </a>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="assets/img/six.jpg">
+                <img src="assets/img/six.jpg" alt="nine">
+            </a>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="assets/img/seis.jpg">
+                <img src="assets/img/seis.jpg" alt="ten">
+            </a>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div style="padding:6px;">
+    </div>
+    <div class="footer">
+  <p>&copy; 2019. All rights reserved.</p>
+</div>
+</body></html>
